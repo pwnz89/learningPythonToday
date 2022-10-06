@@ -15,9 +15,11 @@ def myFunction():
             elif inp2 == "no" or inp2 ==  'finish': 
                 break
             else :
-                return 
+               # what to write here so it starts over questioning from inp2?
+               
                 
 
         # print(count)
     print("the list: ", listA)
+    
 myFunction()

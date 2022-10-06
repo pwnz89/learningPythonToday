@@ -1,0 +1,23 @@
+def myFunction():
+    listA = list()
+    count = 0
+    while True:
+        inp = input("enter list data or 'finish': ")
+        if inp == "finish":
+            break
+        count = count + 1
+        listA.append(inp)
+        
+        if count%5 == 0 and count != 0:
+            inp2 = input('continue? "yes" "no" ')
+            if inp2 == "yes":
+                continue
+            elif inp2 == "no" or inp2 ==  'finish': 
+                break
+            else :
+                return 
+                
+
+        # print(count)
+    print("the list: ", listA)
+myFunction()

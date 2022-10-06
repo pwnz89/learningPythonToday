@@ -8,7 +8,7 @@ def myFunction():
         count = count + 1
         listA.append(inp)
         
-        if count%5 == 0 and count != 0:
+        if count%5 == 0 :
             inp2 = input('continue? "yes" "no" ')
             if inp2 == "yes":
                 continue
